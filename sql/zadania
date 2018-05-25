@@ -1,0 +1,25 @@
+Zadania na schemacie employees:
+-- ZADANIE 1
+Wyświetl dzisiejszą datę 
+Wyświetl aktualny rok:
+Wyświetl aktualny miesiąc:
+Wyświetl aktualny dzień:
+— ZADANIE 2
+Policz wszystkich pracujących mężczyzn i kobiety.
+Policz wszystkich pracujących mężczyzn i kobiety urodzonych po 1960.
+— ZADANIE 3
+Wyświetl imie i nazwisko pracownika w kolumnie zapisanej jako ‘rekin biznesu’ mezyczyzn urodzonych po 1974 roku
+— ZADANIE 4
+Policz rekinów biznesu i zapisz ich w danej kolumnie
+— ZADANIE 5
+Policz ile osób pracuje na danym stanowisku
+— ZADANIE 6
+Policz ile kobiet i ile mężczyzn pracuje na danym stanowisku
+— ZADANIE 7 
+Wyświetl zarobki, imie i nazwisko pracownika wraz płcią, którzy zarabiają powyżej 150000 w konstrukcjach z JOIN i podzapytaniem z ANY (uwaga na ALL)
+— ZADANIE 8 
+Wyświetl zarobki, imie i nazwisko pracownika wraz płcią, którzy zarabiają powyżej pomiędzy 145000 a 150000
+— ZADANIE 9
+Wyświetlić mężczyznę i kobietę, którzy zarabiają najwięcej
+— ZADANIE 10 
+Wyświetlić płeć, liczbę pracowników, średnie wynagrodzenie, sumę wynagrodzenia i maksymalne wynagrodzenie dla danej płci.
