@@ -17,9 +17,68 @@ Policz ile osób pracuje na danym stanowisku
 Policz ile kobiet i ile mężczyzn pracuje na danym stanowisku
 — ZADANIE 7 
 Wyświetl zarobki, imie i nazwisko pracownika wraz płcią, którzy zarabiają powyżej 150000 w konstrukcjach z JOIN i podzapytaniem z ANY (uwaga na ALL)
+https://www.w3schools.com/sql/sql_any_all.asp
+https://www.w3schools.com/sql/sql_in.asp
 — ZADANIE 8 
 Wyświetl zarobki, imie i nazwisko pracownika wraz płcią, którzy zarabiają powyżej pomiędzy 145000 a 150000
 — ZADANIE 9
 Wyświetlić mężczyznę i kobietę, którzy zarabiają najwięcej
 — ZADANIE 10 
 Wyświetlić płeć, liczbę pracowników, średnie wynagrodzenie, sumę wynagrodzenia i maksymalne wynagrodzenie dla danej płci.
+— Zadanie 11. 
+Dodać 250 pracowników do tabeli pracowników
+— Zadanie 12.
+Policz ile jest oddziałów
+— Zadanie 13.
+Wyświetl wszystkie zarobki audytowe pracowników, czyli takie, które już się zakończyły
+- Zadanie 14.
+Dokonać operacji zmiany płci
+- Zadanie 15.
+Dokonać odwrotnej operacji zmiany płci w celu przywrócenia danych pierwotnych
+- Zadanie 16. 
+Wykorzystaj instrukcję DATEDIFF i TIMEDIFF
+- Zadanie 17. 
+Wyświetl pogrupowane po zawodzie średnie zarobki pracowników na danych stanowiskach większe niż 5000.
+<podpowiedź -> having>
+
+-- PROCEDURY/FUNKCJE
+— Zadanie 1.
+Napisz procedurę dodawania pracowników
+— Zadanie 2.
+Napisz procedurę dającą awans
+— Zadanie 3.
+Napisz procedurę usuwającą pracownika z firmy
+- Zadanie 4.
+- Napisz funkcję obliczającą średnią pensję dla danego stanowiska
+
+-- TRIGERY
+- Zadanie 1.
+Dodaj tabelę audytową pracowników
+- Zadanie 2. 
+Napisz trigger, który po usunięciu pracownika wstawi jego dane do tabeli audytowej.
+
+-- WIDOKI
+- Zadanie 1. 
+Zapisz w formie widoków i wyświetl dowolne zapytanie wykonane podczas zajęć.
+
+-- WŁASNY SCHEMAT
+- Zadanie 1.
+Zaprojektuj własny schemat
+- Zadanie 2. 
+Zaimplementuj własny schemat w mysqlu (może być przez diagram ERD i forward engineering)
+- Zadanie 3.
+Twój schemat powinien zawierać co najmniej 
+- 3 różne relacje, 
+- 2 procedury składowane, 
+- 2 funkcje, 
+- 2 triggery
+- 3 różne widoki.
+
+-- Zadania dodatkowe
+https://sqlzoo.net/
+
+-- Dodatkowe linki
+do testowania mysqla bez instalacji:
+http://sqlfiddle.com/#!9/a6c585/1
+-- SQL INJECTION
+https://www.w3schools.com/sql/sql_injection.asp
