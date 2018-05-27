@@ -67,11 +67,15 @@ Napisz trigger, który po usunięciu pracownika wstawi jego dane do tabeli audyt
 Zapisz w formie widoków i wyświetl dowolne zapytanie wykonane podczas zajęć.
 
 -- WŁASNY SCHEMAT
-- Zadanie 1.
+- Zadanie 0 (mamy).
 Zaprojektuj własny schemat
-- Zadanie 2. 
+- Zadanie 1 (łatwe).
 Zaimplementuj własny schemat w mysqlu (może być przez diagram ERD i forward engineering)
-- Zadanie 3.
+- Zadanie 2 (średnie).
+Zamodeluj relacje przy użyciu instrukcji SQL
+- Zadanie 3 (trudne).
+Zastanów się w jaki sposób uzupełnić tabele przykładowymi danymi, jeżeli napotkasz trudności związane ze zbyt dużą liczbą constraintów na tabelach spróbuj uzupełnić je ręcznie niewielką ilością danych
+- Zadanie 4 (trudne).
 Twój schemat powinien zawierać co najmniej 
 - 3 różne relacje, 
 - 2 procedury składowane, 
