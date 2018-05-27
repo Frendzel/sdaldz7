@@ -31,6 +31,11 @@ Dodać 250 pracowników do tabeli pracowników
 Policz ile jest oddziałów
 — Zadanie 13.
 Wyświetl wszystkie zarobki audytowe pracowników, czyli takie, które już się zakończyły
+Utworz tabele audytowa i przenies tam dane z tabeli zarobkow.
+3 instrukcje:
+- select z tabeli zarobkow
+- insert do tabeli audytowej
+- delete z tabeli zarobkow
 - Zadanie 14.
 Dokonać operacji zmiany płci
 - Zadanie 15.
