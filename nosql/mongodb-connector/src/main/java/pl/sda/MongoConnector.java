@@ -14,16 +14,19 @@ public class MongoConnector {
 
     private MongoClient mongoClient;
 
+    private PropertiesLoader propertiesLoader = new PropertiesLoader();
+
     public MongoDatabase connect() {
         MongoCredential mongoCredential =
-                createCredential("test",
-                        "test",
-                        "test123".toCharArray());
+                createCredential(
+                        propertiesLoader.getUser(),
+                        propertiesLoader.getDb(),
+                        propertiesLoader.getPassword().toCharArray());
         ServerAddress serverAddress =
-                new ServerAddress("127.0.0.1");
+                new ServerAddress(propertiesLoader.getAddress());
         mongoClient = new MongoClient(serverAddress,
                 prepareCredentials(mongoCredential));
-        return mongoClient.getDatabase("test");
+        return mongoClient.getDatabase(propertiesLoader.getDb());
     }
 
     private List<MongoCredential> prepareCredentials(MongoCredential mongoCredential) {
