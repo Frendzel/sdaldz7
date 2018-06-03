@@ -1,15 +1,15 @@
 **BEFORE:**
 
-Import data
+Import data through mongoimport tool which should be installed in the same place as mongo and mongod
 ```
 mongoimport --db test --collection grades --drop --file grades.json
 ```
-Creating admin user
+Creating admin user via mongo client
 ```
 use admin
 db.createUser({user: "root",pwd: "password",roles: ["userAdminAnyDatabase", "dbAdminAnyDatabase", "readWriteAnyDatabase"],})
 ```
-Creating test user
+Creating test user via mongo client
 ```
 use test
 db.createUser(
